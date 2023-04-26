@@ -21,5 +21,15 @@ public class Ejecutable {
                 hospital.numeroCamas, hospital.presupuesto);
         
         // System.out.println(hospital.nombre + "-" + hospital.numeroCamas);
+        //un objeto de tipo hospital
+        
+       Hospital hospital2=new Hospital();
+       
+       hospital2.nombre="Solca";
+       hospital2.numeroCamas = 500;
+       hospital2.presupuesto = 3872382.67;
+       System.out.printf("%s - %d - %.2f\n", hospital2.nombre,
+                hospital2.numeroCamas, hospital2.presupuesto);
+       
     }
 }
